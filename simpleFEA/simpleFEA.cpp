@@ -34,10 +34,11 @@ bool writeOutputToTxt(SimModel);
 int main()
 
 {
-	std::string inpFileName = "PlateTrianglesLinear";
+	//std::string inpFileName = "PlateTrianglesLinear";
 	//std::string inpFileName = "PlateTriangles";
 	//std::string inpFileName = "singlePlate_Force";
 	//std::string inpFileName = "plateCoarse";
+	std::string inpFileName = "single_Force";
 
 	SimModel mySimModel(inpFileName);
 

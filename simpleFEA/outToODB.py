@@ -135,7 +135,7 @@ part1 = odb.Part(name='part-1', embeddedSpace=TWO_D_PLANAR,
         type=DEFORMABLE_BODY)
 part1.addNodes(nodeData=nodeList, nodeSetName='nset-1')
 
-part1.addElements(elementData=elemList, type='CPE3',
+part1.addElements(elementData=elemList, type='CPE8',
         elementSetName='eset-1')
 
 instance1 = odb.rootAssembly.Instance(name='part-1-1',
